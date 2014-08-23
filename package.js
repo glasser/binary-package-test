@@ -14,6 +14,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('binary-package-test');
+  api.use('glasser:binary-package-test');
   api.addFiles('binary-package-test-tests.js');
 });
